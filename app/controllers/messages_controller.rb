@@ -16,6 +16,12 @@ class MessagesController < ApplicationController
     end
   end
 
+  # def destroy
+  #   room = Room.find(params[:room_id])
+  #   messages = Room.messages.destroy(room_params)
+  #   messages.destroy
+  # end
+
   private
   def message_params
     params.require(:message).permit(:content).merge(user_id: current_user.id)
