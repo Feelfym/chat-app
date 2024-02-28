@@ -37,6 +37,7 @@
   height: calc( 100vh - 100px - 90px );
   background-color: #fafafa;
   padding: 46px 40px 0 40px;
+  overflow: scroll;
 }
 
 .user__name a{
@@ -100,10 +101,17 @@
   color: #999;
 }
 
+.message-content{
+  font-size: 14px;
+  color: #435A54;
+}
+
+
 .lower__message{
   font-size: 14px;
   color: #435A54;
 }
+
 
 .form-block{
   height: 90px;
